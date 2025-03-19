@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0% auto;
+    padding: 70px;
+    gap: 20px;
+    
+
+}
+.ping{
+    text-align: center;
+}
+.head{
+    color: #969696;
+    font-size: xxx-large;
+    font-size: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}    
+.header{
+    color: black;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: #55585d;
+    font-size:x-large;
+
+}
+.top-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.input-wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+.input{
+    height:60px;
+    width: 65%;
+    padding: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: solid 2px #d9ddea;
+
+
+}
+::placeholder{
+    color: #e3e5ed;
+}
+button{
+    height: 60px;
+    width: 35%;
+    background-color: #4d7bf3;
+    border: none;
+    border-radius: 30px;
+    color: #dee4ef;
+    font-weight: bold;
+}
+
+.board{
+    height: 450px;
+    margin-top: 40px;
+}
+.Avertas{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    outline: #55585d;
+    gap: 20px;
+}
+.icon{
+    width: 45px;
+    margin-top: 40px;
+    border: solid;
+    border-radius: 50px;
+    border-color: #f6f5fa;
+}
+.buttom-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#8b8b8b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
